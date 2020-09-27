@@ -45,6 +45,18 @@ public class Tabeller {
 
 		// TODO
 		int sum = 0;
+
+		// Utvidet for-løkke
+		// for (int tall: tabell) {
+		// 	sum += tall;
+		//}
+
+		// for-løkke
+		// for (int i = 0; i < tabell.length; i++) {
+		// 	sum += tabell[i];
+		//}
+
+		// while-løkke
 		int i = 0;
 		while (i < tabell.length) {
 			sum += tabell[i];
